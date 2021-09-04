@@ -15,7 +15,7 @@ namespace CalculatePi
             ForegroundColor = ConsoleColor.Green;
             StringBuilder output = new StringBuilder();
 
-            decimal reference = 3.1415926535897932384626433832795028841971693993751058209749445923078M;
+            decimal reference = 3.1415926535897M;
             decimal pi = (decimal)Sqrt(12);
             int denominator1 = 3;
             int denominator2 = 3;
