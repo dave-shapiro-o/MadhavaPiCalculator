@@ -42,11 +42,14 @@ namespace CalculatePi
                 denominator1 += 2;
                 ++denom2Power;
 
+                // Tests if the current and previous calculations are correct to the next decimal place 
                 if (MyTruncate(pi) == MyTruncate(reference)
                     && MyTruncate(previousPi) == MyTruncate(reference))
                 {
                     outputStatements[position - 1] =
                         ($"pi calculated to {position} decimal places in {numberOfTerms} terms.");
+
+                    // Moves on to the next decimal place
                     truncFactor *= 10;
                     if (position < outputStatements.Length)
                     {
