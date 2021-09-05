@@ -69,6 +69,7 @@ namespace CalculatePi
         }
         static decimal MyTruncate(decimal number)
         {
+            // Truncates to a given decimal place, based on the "truncFactor" variable
             BigDecimal numerator = Truncate(number * truncFactor);
             return (decimal) numerator / truncFactor;
         }
