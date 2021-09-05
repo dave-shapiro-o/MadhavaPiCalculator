@@ -7,7 +7,5 @@ study of infinite series, calculus, trigonometry, geometry, and algebra. (source
 
 In this program I implemented his more rapidly converging infinite series to calculate the value of Pi. 
 
-![image](https://user-images.githubusercontent.com/77843155/132128407-db2a1252-d080-4886-adeb-38bb45bee2f5.png)
-
 The reference value for Pi in the code is only to test how many terms of the series were needed for each decimal place calculated.
 
